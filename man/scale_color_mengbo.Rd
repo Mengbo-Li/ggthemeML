@@ -7,7 +7,7 @@
 scale_color_mengbo(palette = "main", discrete = TRUE, reverse = FALSE, ...)
 }
 \arguments{
-\item{palette}{Character name of palette in drsimonj_palettes}
+\item{palette}{Character name of palette in mengbo_palettes}
 
 \item{discrete}{Boolean indicating whether color aesthetic is discrete or not}
 

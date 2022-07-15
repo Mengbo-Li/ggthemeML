@@ -1,6 +1,6 @@
 #' Function to extract mengbo colors as hex codes
 #'
-#' @param ... Character names of mnengbo_colors
+#' @param ... Character names of mengbo_colors
 #'
 #' @examples
 #' mengbo_cols()

@@ -5,7 +5,7 @@
 #' additional arguments to pass on to colorRampPallete()
 #' (such as an alpha value).
 #'
-#' @param palette Character name of palette in drsimonj_palettes
+#' @param palette Character name of palette in mengbo_palettes
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments to pass to colorRampPalette()
 #'

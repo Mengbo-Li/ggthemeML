@@ -7,7 +7,7 @@
 mengbo_cols(...)
 }
 \arguments{
-\item{...}{Character names of mnengbo_colors}
+\item{...}{Character names of mengbo_colors}
 }
 \description{
 Function to extract mengbo colors as hex codes

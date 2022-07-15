@@ -7,7 +7,7 @@
 mengbo_pal(palette = "main", reverse = FALSE, ...)
 }
 \arguments{
-\item{palette}{Character name of palette in drsimonj_palettes}
+\item{palette}{Character name of palette in mengbo_palettes}
 
 \item{reverse}{Boolean indicating whether the palette should be reversed}
 

@@ -1,6 +1,6 @@
 #' Color scale constructor for mengbo colors
 #'
-#' @param palette Character name of palette in drsimonj_palettes
+#' @param palette Character name of palette in mengbo_palettes
 #' @param discrete Boolean indicating whether color aesthetic is discrete or not
 #' @param reverse Boolean indicating whether the palette should be reversed
 #' @param ... Additional arguments passed to discrete_scale() or
