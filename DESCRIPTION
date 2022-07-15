@@ -10,6 +10,9 @@ Maintainer: Mengbo Li <li.me@wehi.edu.au>
 Description: Custom theme setups for ggplots and Mengbo's own colour palettes. 
 License: file LICENSE
 Depends: ggplot2, grDevices
+Suggests: BiocStyle, knitr, scales, rmarkdown
+VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.2.0
+URL: https://mengbo-li.github.io/ggthemeML/

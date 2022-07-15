@@ -14,7 +14,8 @@
 #' scale_fill_mengbo(palette = "mixed", guide = "none")
 #'
 #' @export
-scale_fill_mengbo <- function(palette = "main", discrete = TRUE, reverse = FALSE, ...) {
+scale_fill_mengbo <- function(palette = "main", discrete = TRUE,
+                              reverse = FALSE, ...) {
   pal <- mengbo_pal(palette = palette, reverse = reverse)
   if (discrete) {
     discrete_scale("fill", paste0("mengbo_", palette), palette = pal, ...)
