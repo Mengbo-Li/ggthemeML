@@ -10,7 +10,7 @@ output:
 vignette: >
   %\VignetteIndexEntry{Examples for using `theme_mengbo` when generating ggplots}
   %\VignetteEncoding{UTF-8}
-  %\VignetteEngine{knitr::knitr}
+  %\VignetteEngine{knitr::rmarkdown}
 editor_options: 
   chunk_output_type: console
 ---
