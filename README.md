@@ -6,4 +6,4 @@
 
 # ggthemeML
 
-Mengbo's ggplot theme
+Mengbo's personal ggplot theme
