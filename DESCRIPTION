@@ -1,6 +1,6 @@
 Package: ggthemeML
 Type: Package
-Title: Customised Theme for ggplot with Mengbo's own colour palettes
+Title: Customised Theme for ggplot with Mengbo's Own Colour Palettes
 Version: 1.0.0
 Authors@R: 
     c(person("Mengbo", "Li", 
