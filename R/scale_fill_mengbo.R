@@ -11,7 +11,7 @@
 #' # Fill by discrete variable with different palette + remove legend (guide)
 #' ggplot(mpg, aes(manufacturer, fill = manufacturer)) + geom_bar() +
 #' theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
-#' scale_fill_mengbo(palette = "mixed", guide = "none")
+#' scale_fill_mengbo(palette = "main", guide = "none")
 #'
 #' @export
 scale_fill_mengbo <- function(palette = "main", discrete = TRUE,
