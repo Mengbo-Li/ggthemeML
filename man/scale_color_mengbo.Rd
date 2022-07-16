@@ -22,9 +22,11 @@ Color scale constructor for mengbo colors
 \examples{
 # Color by discrete variable using default palette
 ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Species)) +
-geom_point(size = 4) + scale_color_mengbo()
+geom_point(size = 4) +
+scale_color_mengbo()
 # Color by numeric variable with cool palette
 ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
-geom_point(size = 4) + scale_color_mengbo(discrete = FALSE, palette = "cool")
+geom_point(size = 4) +
+scale_color_mengbo(discrete = FALSE, palette = "cool")
 
 }

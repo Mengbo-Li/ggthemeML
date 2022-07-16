@@ -9,7 +9,8 @@
 #'
 #' @examples
 #' # Fill by discrete variable with different palette + remove legend (guide)
-#' ggplot(mpg, aes(manufacturer, fill = manufacturer)) + geom_bar() +
+#' ggplot(mpg, aes(manufacturer, fill = manufacturer)) +
+#' geom_bar() +
 #' theme(axis.text.x = element_text(angle = 45, hjust = 1)) +
 #' scale_fill_mengbo(palette = "main", guide = "none")
 #'
