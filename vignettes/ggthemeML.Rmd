@@ -49,13 +49,13 @@ Available color palettes so far:
 
 ```{r}
 names(ggthemeML:::mengbo_palettes)
-show_col(mengbo_pal("main")(8), ncol = 8)
-show_col(mengbo_pal("cool")(4), ncol = 4)
-show_col(mengbo_pal("hot")(4), ncol = 4)
-show_col(mengbo_pal("pastel")(8), ncol = 8)
-show_col(mengbo_pal("light")(8), ncol = 8)
-show_col(mengbo_pal("grey")(5), ncol = 5)
-show_col(mengbo_pal("opposite")(6), ncol = 6)
+show_col(mengbo_pal("main")(8))
+show_col(mengbo_pal("cool")(4))
+show_col(mengbo_pal("hot")(4))
+show_col(mengbo_pal("pastel")(8))
+show_col(mengbo_pal("light")(8))
+show_col(mengbo_pal("grey")(5))
+show_col(mengbo_pal("opposite")(6))
 ```
 
 
