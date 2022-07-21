@@ -43,9 +43,9 @@ library(scales)
 ```
 
 
-# Color palettes
+# Colour palettes
 
-Available color palettes so far:
+Available Colour palettes so far:
 
 ```{r}
 names(ggthemeML:::mengbo_palettes)
@@ -96,7 +96,7 @@ p1 + theme_mengbo()
 p1 + facet_wrap(~ gear) +  theme_mengbo()
 ```
 
-With my color palettes:
+With my colour palettes:
 
 ```{r}
 p1 + scale_color_mengbo("main") + theme_mengbo()
@@ -111,7 +111,7 @@ p1 + facet_wrap(~ gear) + theme_mengbo(clean_background = FALSE)
 ```
 
 
-# Continuous color examples
+# Continuous colour examples
 
 ```{r}
 ggplot(iris, aes(Sepal.Width, Sepal.Length, color = Sepal.Length)) +
