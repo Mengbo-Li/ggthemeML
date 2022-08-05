@@ -54,19 +54,19 @@ theme_mengbo <- function(base_size = 14,
         # axis text
         axis.line = element_line(colour = "black", size = 0.5),
         axis.text = element_text(size = rel(1.04), colour = "black"),
-        axis.text.x = element_text(margin = margin(t = 0.8 * half_line / 2),
-                                   vjust = -0.4),
-        axis.text.y = element_text(margin = margin(r = half_line / 2),
-                                   hjust = 2.4),
+        axis.text.x = element_text(margin = margin(t = half_line / 1.5),
+                                   vjust = 0.5),
+        axis.text.y = element_text(margin = margin(r = half_line / 1.5),
+                                   hjust = 1),
         axis.ticks = element_line(colour = "black"),
         axis.title.x = element_text(size = rel(1.2),
-                                    margin = margin(t = half_line / 2),
-                                    hjust = 0.54,
+                                    margin = margin(t = half_line / 1.5),
+                                    hjust = 0.5,
                                     vjust = -1),
         axis.title.y = element_text(size = rel(1.2),
                                     angle = 90,
-                                    margin = margin(r = half_line / 2),
-                                    vjust = 2.8),
+                                    margin = margin(r = half_line / 1.5),
+                                    vjust = 1),
         # axis ticks
         axis.ticks.length =  unit(half_line / 1.2, "pt"),
         # white background and dark border
@@ -106,7 +106,7 @@ theme_mengbo <- function(base_size = 14,
         # caption
         plot.caption = element_text(size = rel(0.8),
                                     hjust = 0.5,
-                                    vjust = -2.4,
+                                    vjust = -1,
                                     margin = margin(t = half_line,
                                                     b = half_line)),
         complete = TRUE
@@ -120,20 +120,21 @@ theme_mengbo <- function(base_size = 14,
     ) %+replace%
       theme(
         # axis text
+        axis.line = element_line(colour = "black", size = 0.5),
         axis.text = element_text(size = rel(1.04), colour = "black"),
-        axis.text.x = element_text(margin = margin(t = 0.8 * half_line / 2),
-                                   vjust = -0.4),
-        axis.text.y = element_text(margin = margin(r = half_line / 2),
-                                   hjust = 2.4),
+        axis.text.x = element_text(margin = margin(t = half_line / 1.5),
+                                   vjust = 0.5),
+        axis.text.y = element_text(margin = margin(r = half_line / 1.5),
+                                   hjust = 1),
         axis.ticks = element_line(colour = "black"),
         axis.title.x = element_text(size = rel(1.2),
-                                    margin = margin(t = half_line / 2),
-                                    hjust = 0.54,
+                                    margin = margin(t = half_line / 1.5),
+                                    hjust = 0.5,
                                     vjust = -1),
         axis.title.y = element_text(size = rel(1.2),
                                     angle = 90,
-                                    margin = margin(r = half_line / 2),
-                                    vjust = 2.8),
+                                    margin = margin(r = half_line / 1.5),
+                                    vjust = 1),
         # axis ticks
         axis.ticks.length =  unit(half_line / 1.2, "pt"),
         # white background and dark border
@@ -172,10 +173,11 @@ theme_mengbo <- function(base_size = 14,
         # caption
         plot.caption = element_text(size = rel(0.8),
                                     hjust = 0.5,
-                                    vjust = -2.4,
+                                    vjust = -1,
                                     margin = margin(t = half_line,
                                                     b = half_line)),
         complete = TRUE
       )
   }
 }
+
