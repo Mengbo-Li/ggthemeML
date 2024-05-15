@@ -22,10 +22,16 @@
     <loc>https://mengbo-li.github.io/ggthemeML/reference/index.html</loc>
   </url>
   <url>
+    <loc>https://mengbo-li.github.io/ggthemeML/reference/mengbo_colors.html</loc>
+  </url>
+  <url>
     <loc>https://mengbo-li.github.io/ggthemeML/reference/mengbo_cols.html</loc>
   </url>
   <url>
     <loc>https://mengbo-li.github.io/ggthemeML/reference/mengbo_pal.html</loc>
+  </url>
+  <url>
+    <loc>https://mengbo-li.github.io/ggthemeML/reference/mengbo_palettes.html</loc>
   </url>
   <url>
     <loc>https://mengbo-li.github.io/ggthemeML/reference/scale_color_mengbo.html</loc>
@@ -35,5 +41,8 @@
   </url>
   <url>
     <loc>https://mengbo-li.github.io/ggthemeML/reference/theme_mengbo.html</loc>
+  </url>
+  <url>
+    <loc>https://mengbo-li.github.io/ggthemeML/reference/wehi_colors.html</loc>
   </url>
 </urlset>
