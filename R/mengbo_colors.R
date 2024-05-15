@@ -1,6 +1,8 @@
 #' Basic colors
+#' @examples
+#' mengbo_colors
 #' @import ggplot2
-#' @noRd
+#' @export
 mengbo_colors <- c(`violet` = "#884ec7",
                    `blue` = "#2a61b8",
                    `teal` = "#579992",
@@ -32,4 +34,6 @@ mengbo_colors <- c(`violet` = "#884ec7",
                    `lightgrey` = "#f2f2f2",
                    `midgrey` = "#808080",
                    `darkgrey` = "#404040",
-                   `black` = "#000000")
+                   `black` = "#000000"
+                   )
+

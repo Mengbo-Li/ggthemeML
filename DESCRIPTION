@@ -1,7 +1,7 @@
 Package: ggthemeML
 Type: Package
 Title: Customised Theme for ggplot with Mengbo's Own Colour Palettes
-Version: 1.0.0
+Version: 1.0.1
 Authors@R: 
     c(person("Mengbo", "Li", 
             email = "li.me@wehi.edu.au", 
@@ -9,10 +9,10 @@ Authors@R:
 Maintainer: Mengbo Li <li.me@wehi.edu.au>
 Description: Custom theme setups for ggplots and Mengbo's own colour palettes. 
 License: file LICENSE
-Depends: ggplot2, grDevices
+Depends: ggplot2, grDevices, colorspace
 Suggests: BiocStyle, knitr, scales, markdown
 VignetteBuilder: knitr
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.2.0
+RoxygenNote: 7.3.1
 URL: https://mengbo-li.github.io/ggthemeML/

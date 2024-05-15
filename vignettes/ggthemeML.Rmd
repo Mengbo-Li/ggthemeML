@@ -56,6 +56,11 @@ show_col(mengbo_pal("pastel")(8))
 show_col(mengbo_pal("light")(8))
 show_col(mengbo_pal("grey")(5))
 show_col(mengbo_pal("opposite")(6))
+show_col(mengbo_pal("opposite_ordinal")(6))
+show_col(mengbo_pal("wehi_full")(9))
+show_col(mengbo_pal("wehi_light")(8))
+show_col(mengbo_pal("wehi_dark")(8))
+show_col(mengbo_pal("wehi_mix")(16))
 ```
 
 
