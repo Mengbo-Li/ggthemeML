@@ -52,7 +52,7 @@ theme_mengbo <- function(base_size = 14,
     ) %+replace%
       theme(
         # axis text
-        axis.line = element_line(colour = "black", size = 0.5),
+        axis.line = element_line(colour = "black", linewidth = 0.5),
         axis.text = element_text(size = rel(1.04), colour = "black"),
         axis.text.x = element_text(margin = margin(t = half_line / 1.5),
                                    vjust = 0.5),
@@ -120,7 +120,7 @@ theme_mengbo <- function(base_size = 14,
     ) %+replace%
       theme(
         # axis text
-        axis.line = element_line(colour = "black", size = 0.5),
+        axis.line = element_line(colour = "black", linewidth = 0.5),
         axis.text = element_text(size = rel(1.04), colour = "black"),
         axis.text.x = element_text(margin = margin(t = half_line / 1.5),
                                    vjust = 0.5),
@@ -141,7 +141,7 @@ theme_mengbo <- function(base_size = 14,
         panel.background = element_blank(),
         panel.border = element_rect(fill = NA, colour = "black"),
         # make gridlines
-        panel.grid = element_line(size = 0.1, color = "black"),
+        panel.grid = element_line(linewidth = 0.1, color = "black"),
         panel.grid.minor = element_blank(),
         # contour strips to match panel contour
         strip.background = element_rect(fill = "#e6e6e6",
